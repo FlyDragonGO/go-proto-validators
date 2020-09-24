@@ -55,13 +55,13 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/FlyDragonGO/protobuf/protoc-gen-gogo/generator"
 	"github.com/gogo/protobuf/gogoproto"
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
-	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
 	"github.com/gogo/protobuf/vanity"
 
-	validator "github.com/mwitkow/go-proto-validators"
+	validator "github.com/FlyDragonGO/go-proto-validators"
 )
 
 const uuidPattern = "^([a-fA-F0-9]{8}-" +
